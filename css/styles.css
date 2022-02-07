@@ -42,6 +42,8 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+
+  outline: 1px solid tomato;
 }
 
 .container.main-nav {
@@ -358,6 +360,7 @@ body {
 }
 
 .project-list .item {
+  box-shadow: 1px 1px 2px var(--alternative-bg-color);
   margin-bottom: 30px;
 }
 
@@ -366,10 +369,13 @@ body {
 }
 
 .project-list .link {
+  display: inline-block;
   text-decoration: none;
 }
 
 .project-list .name {
+  margin: 20px 24px 0;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -377,7 +383,7 @@ body {
 }
 
 .project-list .type {
-  margin: 0;
+  margin: 4px 24px 20px;
 
   color: var(--primary-text-color);
 
