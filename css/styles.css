@@ -6,6 +6,8 @@
   --alternative-bg-color: #f5f4fa;
   --hero-bg-color: #2f303a;
   --bottom-link-color: rgba(255, 255, 255, 0.6);
+  --border-color: #ececec;
+  --card-border-color: #eeeeee;
 }
 
 html {
@@ -319,6 +321,10 @@ body {
 
 /* Portfolio */
 
+.portfolio-header {
+  border-bottom: 1px solid var(--border-color);
+}
+
 .container.portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -360,7 +366,8 @@ body {
 }
 
 .project-list .item {
-  box-shadow: 1px 1px 2px var(--alternative-bg-color);
+  box-shadow: 1px 2px 2px var(--card-border-color);
+  padding-bottom: 20px;
   margin-bottom: 30px;
 }
 
@@ -374,7 +381,9 @@ body {
 }
 
 .project-list .name {
-  margin: 20px 24px 0;
+  margin-top: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
 
   font-weight: 700;
   font-size: 18px;
@@ -383,7 +392,10 @@ body {
 }
 
 .project-list .type {
-  margin: 4px 24px 20px;
+  margin-top: 4px;
+  margin-bottom: 0;
+  margin-left: 24px;
+  margin-right: 24px;
 
   color: var(--primary-text-color);
 
