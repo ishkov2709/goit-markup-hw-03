@@ -145,6 +145,8 @@ body {
 
   font-family: 'Roboto', sans-serif;
   text-align: center;
+
+  cursor: pointer;
 }
 
 .hero .button {
