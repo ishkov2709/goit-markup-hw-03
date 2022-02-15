@@ -273,8 +273,6 @@ img {
   margin-top: 10px;
 
   color: var(--primary-text-color);
-
-  font-weight: 400;
 }
 
 /* Footer */
@@ -339,7 +337,6 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  letter-spacing: 0.03em;
 }
 
 .filter-list .item:not(:last-child) {
@@ -395,8 +392,6 @@ img {
   margin: 4px 0 0 0;
 
   color: var(--primary-text-color);
-
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
 }
