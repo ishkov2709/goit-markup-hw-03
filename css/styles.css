@@ -41,6 +41,10 @@ img {
   list-style: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
 /* Site Header */
 
 .container.main-nav {
@@ -86,10 +90,8 @@ img {
   color: var(--primary-title-color);
 
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .nav-list .link:hover,
@@ -299,14 +301,8 @@ img {
 
 .address-list .link {
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 
   color: var(--bottom-link-color);
-
-  text-decoration: none;
 }
 
 .address-list .destination.link {
@@ -382,7 +378,6 @@ img {
 }
 
 .project-list .link {
-  text-decoration: none;
 }
 
 .project-list .name {
